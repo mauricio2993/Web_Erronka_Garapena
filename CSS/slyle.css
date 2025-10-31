@@ -1,0 +1,58 @@
+
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: 'Poppins', sans-serif; }
+
+
+
+#logo {
+  height: 50px;               
+  width: auto;
+  display: block;
+  position: fixed; 
+  padding-left: 50px;
+  text-align: center;
+
+}
+
+
+
+    nav {
+      background: #1F2937;
+      font-size: 30px;
+      color: white;
+      text-align: center;
+      padding: 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      filter: drop-shadow(0 0 1px white);
+      margin: 0 15px;
+    }
+    .seccion {
+      text-align: center;
+      height: 100vh; 
+      padding-top: 70px; 
+    }
+
+  #contenedor {
+  width: 800px;      
+  overflow: hidden;   
+  margin: auto;
+}
+
+.banner {
+  display: flex;      
+}
+
+.banner div img {
+  width: 800px;      
+  
+    }
+    #home { background: white; }
+    #about_us { background: #2563EB; }
+    #eventos { background: #60A5FA; }
+    #contacto { background: #111827; }
