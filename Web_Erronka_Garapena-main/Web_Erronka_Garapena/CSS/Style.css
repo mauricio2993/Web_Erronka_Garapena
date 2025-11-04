@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+nav {
+  background: #1F2937;
+  padding: 15px 40px;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #60A5FA;
+}
+
+/* SECCIONES */
+.seccion {
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 100px; /* espacio para el nav fijo */
+  box-sizing: border-box;
+}
+
+/* HOME - imagen de fondo completa */
+#Home {
+  background: url("../img/img_5.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 4px black;
+}
+
+#Home h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+#Home p {
+  font-size: 22px;
+  max-width: 700px;
+}
+
+/* Otras secciones */
+#about_us {
+  background: #2563EB;
+  color: white;
+  padding: 100px 20px;
+}
+
+#eventos {
+  background: #60A5FA;
+  color: white;
+  padding: 100px 20px;
+}
+
+#contacto {
+  background: #656668;
+  color: white;
+  padding: 100px 20px;
+}
